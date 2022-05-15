@@ -1,0 +1,6 @@
+<!-- <ul class="nav navbar-nav navbar-right">
+  <li *ngIf="!auth.isLoggedIn()"><a routerLink="/login">Sign in</a></li>
+  <li *ngIf="auth.isLoggedIn()"><a routerLink="/">{{ auth.getUserDetails()?.name }}</a></li>
+  <li *ngIf="auth.isLoggedIn()"><a (click)="auth.logout()">Logout</a></li>
+</ul> -->
+<router-outlet></router-outlet>
